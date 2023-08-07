@@ -9,7 +9,7 @@ This repo for my final backend specialisation provided by Meta
 5. you need to install django using `pipenv install djangorestframework` command
 
 # setup for mysql
-1. You ve to download and install mysql , if you dont have it installed already once you are done, then run the following command to `sudo mysql -u root -p` simply remove the sudo and run the command 
+1. You ve to download and install mysql , if you dont have it installed already once you are done, then run the following command to `sudo mysql -u root -p` or simply remove the sudo and run the command for Window os.
 2. by default mysql has password "" then click enter
 3. then you have to create new database using the following command `create database backenddb;` once you run the command.
 4. then create user if you are not a root user with the following command `CREATE USER 'adminbackend'@'localhost' IDENTIFIED BY 'backend@123';` and grant all previledges to the user and run flush previledges. Below is the screen short of the mysql setup.
